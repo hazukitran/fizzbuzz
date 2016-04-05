@@ -17,6 +17,3 @@ describe 'fizzbuzz' do
     expect(fizzbuzz(1)).to eq 1
   end
 end
-
-['Hello', 'World', 'Codewars', 'Katas']
-[[-5, 0], [-5, 1], [-8, 2], [-5, 3]]
