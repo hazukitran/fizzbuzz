@@ -1,9 +1,11 @@
-def fizzbuzz(number)
-  case 
-  when number % 3 == 0 && number % 5 == 0 then "Fizzbuzz"
-  when number % 3 == 0 then "Fizz"
-  when number % 5 == 0 then "Buzz"
-  else
-    number
+class Fixnum
+  def fizzbuzz
+    case 
+    when self % 3 == 0 && self % 5 == 0 then "Fizzbuzz"
+    when self % 3 == 0 then "Fizz"
+    when self % 5 == 0 then "Buzz"
+    else
+      self
+    end
   end
 end
