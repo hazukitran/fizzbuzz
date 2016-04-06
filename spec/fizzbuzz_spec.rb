@@ -16,6 +16,7 @@ describe "Fixnum" do
       end
     end
 
+<<<<<<< HEAD
     context "when number is multiple of 3 and 5" do
       it "returns 'Fizzbuzz'" do
         expect(15.fizzbuzz).to eq "Fizzbuzz"
@@ -29,3 +30,9 @@ describe "Fixnum" do
     end
   end
 end
+=======
+  it 'returns the number if the number is not multiple of 3 or 5' do
+    expect(fizzbuzz(1)).to eq 1
+  end
+end
+>>>>>>> 8540e81a5267391b7725a75b3468fd6d8367f650
